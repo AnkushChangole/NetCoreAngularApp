@@ -32,7 +32,7 @@ namespace API.Controllers
         }
 
 
-        [Authorize]
+   
         [HttpGet("{username}")]
         public async Task<ActionResult<MemberDto>> GetUser(string username)
         {
